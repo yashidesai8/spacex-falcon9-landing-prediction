@@ -34,6 +34,13 @@ Supporting data files (`dataset_part_2.csv`, `dataset_part_3.csv`, `Spacex.csv`,
 
 **Note on the two data collection notebooks:** they contain complete, correct, ready-to-run code, but were not executed in this environment because it doesn't have outbound access to the SpaceX API or Wikipedia. Running them on any machine with normal internet access reproduces the raw data files used by every downstream notebook.
 
+## How to run
+
+```bash
+pip install pandas numpy requests beautifulsoup4 matplotlib seaborn folium dash plotly scikit-learn
+jupyter notebook
+```
+
 Open any notebook and run all cells top to bottom. `SpaceX_Dash_Dashboard.py` is a standalone app — run it with `python SpaceX_Dash_Dashboard.py` and open the local URL it prints.
 
 ## Methodology
@@ -46,4 +53,4 @@ Open any notebook and run all cells top to bottom. `SpaceX_Dash_Dashboard.py` is
 
 ## Author
 
-Yashi Desai
+Yash
